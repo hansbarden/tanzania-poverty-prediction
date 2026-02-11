@@ -14,9 +14,9 @@ st.set_page_config(
 model = joblib.load("model.pkl")
 mappings = joblib.load("mappings.pkl")
 
-# ================= HERO IMAGE (ONLINE) =========
+# ================= HERO IMAGE ==================
 st.image(
-    "https://upload.wikimedia.org/wikipedia/commons/3/38/Dodoma_city_Tanzania.jpg",
+    "https://images.unsplash.com/photo-1604088430380-5b5a5c4b1b2a",
     use_container_width=True
 )
 
@@ -24,7 +24,7 @@ st.markdown("""
 <div style="text-align:center;">
     <h1>🇹🇿 Tanzania Poverty Risk Assessment System</h1>
     <p style="font-size:16px;color:gray;">
-        AI-powered dashboard for household poverty analysis
+        AI-powered household poverty analysis dashboard
     </p>
 </div>
 """, unsafe_allow_html=True)
@@ -35,26 +35,17 @@ st.markdown("---")
 c1, c2, c3 = st.columns(3)
 
 with c1:
-    st.image(
-        "https://cdn-icons-png.flaticon.com/512/4712/4712109.png",
-        width=80
-    )
+    st.image("https://cdn-icons-png.flaticon.com/512/4712/4712109.png", width=80)
     st.markdown("### 🤖 AI Powered")
     st.write("Machine Learning model trained on socio-economic indicators.")
 
 with c2:
-    st.image(
-        "https://upload.wikimedia.org/wikipedia/commons/6/6f/Tanzania_location_map.svg",
-        width=80
-    )
+    st.image("https://cdn-icons-png.flaticon.com/512/854/854878.png", width=80)
     st.markdown("### 🌍 Tanzania Focused")
     st.write("Designed specifically for Tanzanian household conditions.")
 
 with c3:
-    st.image(
-        "https://cdn-icons-png.flaticon.com/512/3208/3208707.png",
-        width=80
-    )
+    st.image("https://cdn-icons-png.flaticon.com/512/3208/3208707.png", width=80)
     st.markdown("### 📊 Data Driven")
     st.write("Predictions are based on measurable household data.")
 
@@ -129,6 +120,7 @@ if submit:
 
     with st.expander("📂 View Input Data"):
         st.dataframe(input_df)
+
 
 
 
