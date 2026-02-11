@@ -1,0 +1,501 @@
+hhsize,education_head,employment_status,monthly_income,own_house,urban_rural,poverty_risk_level
+10,Primary,Agriculture,141725,Yes,Rural,5
+4,Primary,Wage employment,617588,Yes,Urban,1
+8,Primary,Agriculture,317408,Yes,Rural,3
+10,Secondary,Self-employed,489263,Yes,Rural,2
+8,Primary,Agriculture,177370,No,Rural,4
+2,Secondary,Self-employed,502521,Yes,Urban,1
+4,Primary,Wage employment,553540,Yes,Urban,1
+4,No education,Wage employment,360532,No,Rural,2
+4,No education,Wage employment,422268,Yes,Urban,1
+4,Tertiary,Self-employed,746076,Yes,Urban,1
+9,Primary,Self-employed,161804,Yes,Rural,4
+5,Primary,Agriculture,87610,No,Rural,4
+3,Tertiary,Self-employed,818520,Yes,Urban,1
+6,No education,Agriculture,50000,No,Rural,5
+7,Secondary,Wage employment,494476,Yes,Rural,2
+10,Primary,Agriculture,50000,Yes,Rural,5
+6,Primary,Agriculture,74563,Yes,Rural,4
+1,Secondary,Self-employed,530624,Yes,Urban,1
+10,Primary,Agriculture,187111,Yes,Rural,4
+7,No education,Self-employed,245525,No,Rural,5
+5,Primary,Wage employment,441308,No,Rural,2
+3,Secondary,Agriculture,400744,No,Urban,1
+5,Tertiary,Wage employment,843519,Yes,Rural,1
+10,No education,Agriculture,80073,Yes,Rural,5
+10,No education,Self-employed,176772,Yes,Rural,5
+7,Tertiary,Wage employment,778520,Yes,Rural,2
+9,Primary,Self-employed,227340,No,Rural,4
+5,No education,Agriculture,214437,Yes,Rural,4
+9,Primary,Agriculture,296737,Yes,Rural,4
+9,Secondary,Wage employment,550231,Yes,Rural,2
+5,Primary,Agriculture,205030,No,Rural,3
+10,Primary,Agriculture,274883,Yes,Rural,4
+6,Secondary,Wage employment,635239,Yes,Rural,1
+2,Primary,Wage employment,604158,No,Urban,1
+1,Primary,Agriculture,262008,Yes,Urban,1
+1,Primary,Self-employed,353501,No,Urban,1
+2,Secondary,Unemployed,386302,Yes,Urban,1
+7,Secondary,Agriculture,248099,No,Rural,3
+1,Tertiary,Agriculture,687489,No,Urban,1
+4,Primary,Unemployed,50000,Yes,Rural,3
+10,Secondary,Agriculture,358609,No,Rural,2
+6,Primary,Unemployed,129016,Yes,Rural,4
+5,Secondary,Self-employed,511420,No,Urban,1
+3,Secondary,Agriculture,419694,Yes,Rural,1
+9,Secondary,Agriculture,246532,No,Rural,3
+4,No education,Self-employed,159557,No,Rural,3
+4,No education,Self-employed,311324,No,Urban,1
+4,Secondary,Self-employed,342425,Yes,Rural,1
+1,Secondary,Agriculture,406589,Yes,Urban,1
+5,Primary,Agriculture,372976,No,Urban,1
+9,Secondary,Self-employed,408116,Yes,Rural,2
+3,Primary,Unemployed,219190,No,Urban,1
+10,No education,Agriculture,50000,Yes,Rural,5
+5,Primary,Self-employed,470197,Yes,Urban,1
+9,No education,Agriculture,74607,Yes,Rural,5
+7,Secondary,Self-employed,383010,Yes,Rural,2
+4,No education,Self-employed,108076,No,Rural,4
+3,Primary,Self-employed,276035,Yes,Rural,2
+7,Primary,Agriculture,214596,Yes,Rural,4
+3,Secondary,Self-employed,482498,Yes,Urban,1
+5,Primary,Wage employment,394303,Yes,Rural,2
+3,No education,Agriculture,195751,No,Rural,3
+6,Primary,Agriculture,256137,Yes,Rural,3
+8,Secondary,Unemployed,281145,Yes,Rural,3
+2,Primary,Agriculture,316792,No,Urban,1
+7,Primary,Agriculture,130825,Yes,Rural,5
+1,Tertiary,Agriculture,709676,Yes,Urban,1
+1,No education,Agriculture,357117,No,Urban,1
+3,Primary,Self-employed,389872,No,Urban,1
+7,Secondary,Agriculture,397572,Yes,Rural,2
+2,Primary,Agriculture,276030,Yes,Urban,1
+3,Primary,Self-employed,279701,Yes,Rural,2
+4,Primary,Self-employed,270570,Yes,Urban,1
+7,Primary,Agriculture,77423,Yes,Rural,5
+1,Secondary,Self-employed,711418,Yes,Urban,1
+2,Secondary,Agriculture,515834,Yes,Urban,1
+3,Secondary,Self-employed,289335,Yes,Rural,1
+4,Primary,Self-employed,294088,Yes,Rural,2
+7,Tertiary,Agriculture,376521,Yes,Rural,2
+7,Primary,Agriculture,237636,No,Rural,4
+5,Secondary,Self-employed,333063,Yes,Rural,1
+7,Primary,Agriculture,147867,Yes,Rural,5
+4,Primary,Agriculture,202037,Yes,Rural,2
+4,Tertiary,Agriculture,489408,No,Urban,1
+2,Secondary,Agriculture,474037,No,Urban,1
+5,Secondary,Self-employed,558759,No,Urban,1
+1,Secondary,Agriculture,345768,Yes,Urban,1
+1,Primary,Agriculture,305419,No,Urban,1
+5,Primary,Agriculture,50000,Yes,Rural,4
+8,Primary,Self-employed,321751,Yes,Rural,3
+8,Tertiary,Self-employed,553107,Yes,Rural,2
+2,Secondary,Wage employment,572575,Yes,Urban,1
+2,Primary,Agriculture,185226,Yes,Urban,1
+9,Primary,Wage employment,357311,Yes,Rural,3
+5,No education,Agriculture,354603,No,Urban,2
+9,Primary,Wage employment,387183,Yes,Rural,3
+8,Primary,Unemployed,108654,Yes,Rural,5
+4,Tertiary,Self-employed,665867,Yes,Rural,1
+2,No education,Agriculture,271425,Yes,Urban,2
+8,Primary,Self-employed,233585,Yes,Rural,4
+9,Primary,Agriculture,300865,Yes,Rural,3
+6,Secondary,Agriculture,307489,Yes,Rural,1
+3,Tertiary,Self-employed,755313,Yes,Urban,1
+8,Primary,Self-employed,216266,Yes,Rural,4
+4,Primary,Agriculture,192727,Yes,Rural,2
+7,Secondary,Self-employed,369908,No,Rural,2
+8,Primary,Self-employed,389664,Yes,Rural,3
+3,Primary,Wage employment,533239,Yes,Urban,1
+3,Secondary,Wage employment,485688,Yes,Rural,1
+9,No education,Wage employment,438081,No,Rural,4
+1,Tertiary,Agriculture,655222,No,Urban,1
+5,Secondary,Wage employment,475103,Yes,Rural,1
+7,Primary,Agriculture,272509,Yes,Rural,4
+3,No education,Agriculture,156956,Yes,Urban,2
+2,Primary,Self-employed,291416,No,Urban,1
+4,Secondary,Agriculture,355731,No,Urban,1
+1,Primary,Unemployed,247284,No,Urban,1
+2,Secondary,Wage employment,682048,No,Urban,1
+7,Secondary,Self-employed,367802,Yes,Rural,2
+7,Primary,Self-employed,344393,Yes,Rural,3
+4,Secondary,Self-employed,436266,Yes,Urban,1
+5,Primary,Agriculture,117219,Yes,Rural,4
+4,Primary,Agriculture,429606,Yes,Urban,1
+3,Tertiary,Wage employment,877910,Yes,Rural,1
+10,Primary,Agriculture,236770,Yes,Rural,4
+6,Primary,Self-employed,205678,Yes,Rural,3
+3,Tertiary,Agriculture,656855,No,Urban,1
+4,Primary,Unemployed,295929,Yes,Urban,1
+8,Secondary,Agriculture,352121,No,Rural,2
+1,Tertiary,Agriculture,642636,Yes,Urban,1
+2,Primary,Agriculture,401789,Yes,Urban,1
+7,Secondary,Agriculture,353378,Yes,Rural,2
+4,No education,Agriculture,179504,No,Urban,2
+4,Secondary,Agriculture,202871,Yes,Rural,1
+7,Tertiary,Unemployed,504458,Yes,Rural,2
+9,Primary,Agriculture,142520,Yes,Rural,5
+10,Primary,Self-employed,266332,No,Rural,4
+9,Primary,Self-employed,341466,No,Rural,3
+3,Primary,Self-employed,436510,Yes,Urban,1
+8,Primary,Agriculture,145397,No,Rural,5
+7,Tertiary,Unemployed,523803,No,Rural,2
+8,Primary,Agriculture,137686,Yes,Rural,5
+8,Tertiary,Agriculture,561024,Yes,Rural,2
+8,Primary,Wage employment,340332,No,Rural,3
+4,Secondary,Self-employed,412219,Yes,Rural,1
+3,No education,Self-employed,206446,Yes,Rural,3
+5,Primary,Agriculture,264312,No,Urban,2
+5,No education,Self-employed,86266,Yes,Rural,5
+7,No education,Agriculture,101610,Yes,Rural,5
+4,Primary,Self-employed,430069,Yes,Urban,1
+9,Primary,Unemployed,50000,Yes,Rural,5
+1,No education,Self-employed,267442,No,Urban,2
+6,No education,Agriculture,193999,Yes,Rural,4
+7,Secondary,Self-employed,337724,Yes,Rural,2
+5,Primary,Agriculture,389227,No,Urban,1
+4,Tertiary,Unemployed,440469,Yes,Rural,1
+7,Secondary,Wage employment,428649,Yes,Rural,2
+10,Primary,Self-employed,259690,Yes,Rural,4
+4,Secondary,Agriculture,318859,Yes,Urban,1
+3,No education,Agriculture,181300,Yes,Rural,3
+2,Secondary,Agriculture,497555,No,Urban,1
+2,Primary,Agriculture,375414,No,Urban,1
+4,Primary,Agriculture,386423,Yes,Urban,1
+6,Secondary,Wage employment,535186,No,Rural,1
+5,Tertiary,Unemployed,495575,Yes,Rural,1
+7,Primary,Self-employed,224986,Yes,Rural,4
+3,Primary,Self-employed,291884,Yes,Rural,2
+4,No education,Unemployed,218388,Yes,Urban,2
+5,Primary,Unemployed,128883,Yes,Rural,4
+7,Primary,Wage employment,372818,No,Rural,3
+8,Primary,Self-employed,276819,Yes,Rural,4
+4,Primary,Wage employment,504697,Yes,Rural,1
+7,Secondary,Self-employed,218611,No,Rural,3
+9,Secondary,Self-employed,419799,Yes,Rural,2
+6,Primary,Wage employment,441010,Yes,Rural,2
+2,Tertiary,Wage employment,843367,No,Urban,1
+8,Primary,Agriculture,58659,Yes,Rural,5
+2,Primary,Agriculture,367246,No,Urban,1
+6,Primary,Agriculture,54364,Yes,Rural,4
+10,Tertiary,Wage employment,822785,Yes,Rural,2
+8,No education,Agriculture,64148,Yes,Rural,5
+6,Secondary,Agriculture,246817,Yes,Rural,2
+3,Primary,Wage employment,587810,Yes,Urban,1
+5,Primary,Self-employed,219745,Yes,Urban,2
+9,No education,Agriculture,174827,Yes,Rural,5
+9,Tertiary,Agriculture,474724,Yes,Rural,2
+3,Primary,Self-employed,186453,Yes,Rural,2
+8,Secondary,Self-employed,303975,No,Rural,2
+4,Secondary,Wage employment,808206,Yes,Urban,1
+2,Primary,Agriculture,311466,Yes,Urban,1
+5,Primary,Agriculture,378003,No,Urban,1
+5,No education,Self-employed,250494,Yes,Rural,4
+4,Secondary,Unemployed,415601,Yes,Urban,1
+4,Primary,Agriculture,359850,No,Urban,1
+5,Primary,Self-employed,251227,Yes,Rural,3
+4,No education,Self-employed,296211,No,Urban,2
+10,No education,Agriculture,291749,Yes,Rural,5
+8,No education,Self-employed,124484,No,Rural,5
+3,Primary,Wage employment,353895,No,Rural,1
+4,Primary,Agriculture,342998,No,Urban,1
+4,No education,Agriculture,117824,Yes,Rural,4
+6,No education,Wage employment,378210,Yes,Rural,3
+5,Primary,Agriculture,297852,Yes,Rural,3
+7,Tertiary,Unemployed,443177,Yes,Rural,2
+10,Tertiary,Self-employed,671891,Yes,Rural,2
+2,Tertiary,Agriculture,555503,No,Urban,1
+8,No education,Agriculture,203437,Yes,Rural,5
+9,Secondary,Wage employment,317802,Yes,Rural,2
+8,Primary,Agriculture,146753,No,Rural,5
+9,No education,Agriculture,283367,Yes,Rural,5
+1,Primary,Agriculture,241398,No,Urban,1
+3,Primary,Agriculture,178061,Yes,Rural,2
+5,Primary,Self-employed,337977,Yes,Rural,2
+1,Secondary,Self-employed,542433,Yes,Urban,1
+9,Primary,Wage employment,287860,Yes,Rural,4
+5,Secondary,Self-employed,504556,Yes,Urban,1
+5,Primary,Self-employed,541323,No,Urban,1
+2,Primary,Agriculture,343829,No,Urban,1
+4,Primary,Self-employed,346785,No,Urban,1
+3,Primary,Agriculture,311216,No,Urban,1
+2,Secondary,Wage employment,787152,No,Urban,1
+5,No education,Self-employed,192986,Yes,Rural,4
+8,Primary,Wage employment,372178,Yes,Rural,3
+3,Secondary,Self-employed,559855,No,Urban,1
+6,No education,Self-employed,192903,Yes,Rural,4
+10,Primary,Agriculture,91597,Yes,Rural,5
+4,Secondary,Self-employed,401320,No,Urban,1
+7,Primary,Agriculture,276048,Yes,Rural,4
+4,No education,Wage employment,477290,Yes,Urban,1
+9,Primary,Agriculture,214561,No,Rural,4
+7,Secondary,Wage employment,530665,Yes,Rural,2
+10,Primary,Agriculture,50000,Yes,Rural,5
+8,Primary,Agriculture,214284,Yes,Rural,4
+10,Secondary,Agriculture,322802,Yes,Rural,2
+10,No education,Self-employed,226499,Yes,Rural,5
+2,Tertiary,Agriculture,463129,Yes,Urban,1
+5,Primary,Self-employed,189770,Yes,Rural,3
+9,Secondary,Agriculture,234022,Yes,Rural,3
+8,Primary,Self-employed,201537,No,Rural,4
+10,Primary,Agriculture,50000,No,Rural,5
+4,Secondary,Wage employment,604176,No,Urban,1
+6,Secondary,Agriculture,401273,No,Rural,1
+8,No education,Self-employed,370361,Yes,Rural,4
+7,Primary,Agriculture,94046,Yes,Rural,5
+5,No education,Agriculture,235359,No,Urban,3
+7,Primary,Agriculture,154818,Yes,Rural,4
+5,Primary,Self-employed,221232,No,Rural,3
+2,Primary,Agriculture,290620,No,Urban,1
+4,No education,Agriculture,65587,No,Rural,4
+2,Secondary,Self-employed,466083,No,Urban,1
+7,Primary,Agriculture,107854,No,Rural,5
+10,Secondary,Self-employed,281244,Yes,Rural,3
+10,Primary,Agriculture,233851,No,Rural,4
+7,Primary,Self-employed,224471,Yes,Rural,4
+4,Primary,Agriculture,231916,Yes,Rural,2
+2,No education,Unemployed,218245,No,Urban,2
+4,No education,Self-employed,247679,No,Urban,2
+10,Tertiary,Agriculture,343052,Yes,Rural,2
+9,Secondary,Agriculture,329359,Yes,Rural,2
+8,Secondary,Agriculture,267540,Yes,Rural,3
+4,Primary,Agriculture,358156,No,Urban,1
+5,No education,Agriculture,251006,Yes,Urban,3
+10,Primary,Self-employed,199164,Yes,Rural,4
+5,Primary,Self-employed,308797,Yes,Rural,2
+6,Primary,Wage employment,428199,Yes,Rural,2
+3,Primary,Self-employed,441915,No,Urban,1
+1,No education,Agriculture,292750,No,Urban,2
+7,Primary,Self-employed,194025,Yes,Rural,4
+9,Primary,Self-employed,259468,Yes,Rural,4
+5,Primary,Self-employed,178770,Yes,Rural,3
+5,Primary,Agriculture,239488,Yes,Rural,3
+3,Primary,Agriculture,276971,Yes,Rural,2
+8,Tertiary,Agriculture,401222,Yes,Rural,2
+2,No education,Wage employment,654624,Yes,Urban,1
+5,Primary,Agriculture,422786,No,Urban,1
+10,Secondary,Agriculture,218407,Yes,Rural,3
+5,Tertiary,Agriculture,485928,Yes,Rural,1
+5,Secondary,Agriculture,355201,No,Urban,1
+6,Primary,Agriculture,173658,Yes,Rural,3
+2,Secondary,Agriculture,388750,No,Urban,1
+3,No education,Wage employment,282470,No,Rural,3
+2,Primary,Self-employed,533097,Yes,Urban,1
+10,No education,Agriculture,50000,Yes,Rural,5
+4,No education,Wage employment,346212,Yes,Rural,2
+3,Tertiary,Agriculture,526157,Yes,Rural,1
+10,Secondary,Self-employed,293551,Yes,Rural,3
+7,No education,Unemployed,159414,Yes,Rural,5
+5,Primary,Wage employment,438498,No,Urban,1
+3,Primary,Agriculture,171521,Yes,Rural,2
+2,Secondary,Agriculture,429964,Yes,Urban,1
+3,Secondary,Agriculture,385992,Yes,Urban,1
+5,Secondary,Agriculture,344917,Yes,Rural,1
+1,Secondary,Wage employment,634688,Yes,Urban,1
+10,Primary,Self-employed,309573,No,Rural,3
+7,Primary,Agriculture,259286,Yes,Rural,4
+4,Secondary,Agriculture,263083,No,Rural,1
+5,Primary,Self-employed,299920,Yes,Rural,3
+3,Primary,Self-employed,296754,Yes,Rural,2
+5,Primary,Agriculture,301267,No,Urban,1
+1,Secondary,Agriculture,419038,Yes,Urban,1
+5,Primary,Agriculture,50000,No,Rural,4
+4,Primary,Wage employment,486366,Yes,Urban,1
+5,Primary,Wage employment,260240,Yes,Rural,3
+3,Secondary,Self-employed,426582,Yes,Rural,1
+4,Tertiary,Self-employed,608107,Yes,Rural,1
+3,No education,Agriculture,291467,Yes,Urban,2
+1,No education,Self-employed,511883,Yes,Urban,1
+6,Secondary,Wage employment,539710,Yes,Rural,1
+5,Primary,Self-employed,253530,Yes,Rural,3
+4,Primary,Self-employed,280914,Yes,Rural,2
+5,Primary,Agriculture,184457,No,Urban,2
+6,Primary,Self-employed,312072,Yes,Rural,2
+8,Primary,Unemployed,154116,Yes,Rural,4
+5,Primary,Wage employment,612100,No,Urban,1
+8,No education,Self-employed,220805,Yes,Rural,5
+6,Secondary,Unemployed,203802,Yes,Rural,2
+7,Primary,Agriculture,181538,Yes,Rural,4
+3,No education,Self-employed,392230,Yes,Urban,1
+3,Secondary,Self-employed,481747,Yes,Urban,1
+4,Primary,Self-employed,370573,No,Urban,1
+10,No education,Unemployed,144861,Yes,Rural,5
+2,Primary,Unemployed,319986,No,Urban,1
+5,Primary,Self-employed,485208,No,Urban,1
+7,Primary,Self-employed,272868,Yes,Rural,4
+1,Primary,Wage employment,620902,No,Urban,1
+1,Secondary,Agriculture,418418,No,Urban,1
+7,Primary,Wage employment,411622,Yes,Rural,3
+7,Tertiary,Self-employed,682048,Yes,Rural,2
+2,Primary,Unemployed,366083,No,Urban,1
+5,Tertiary,Agriculture,478858,No,Rural,1
+5,Tertiary,Agriculture,565861,No,Rural,1
+4,No education,Self-employed,352820,Yes,Urban,1
+1,Primary,Unemployed,266762,Yes,Urban,1
+6,Primary,Self-employed,240881,Yes,Rural,3
+8,Primary,Self-employed,312920,Yes,Rural,3
+8,Secondary,Agriculture,334712,No,Rural,2
+3,Primary,Unemployed,115041,No,Rural,3
+1,Secondary,Agriculture,419138,Yes,Urban,1
+5,Secondary,Wage employment,627793,Yes,Rural,1
+4,No education,Self-employed,149327,Yes,Rural,4
+10,Primary,Agriculture,256856,Yes,Rural,4
+10,Primary,Agriculture,200748,Yes,Rural,4
+5,Primary,Wage employment,400832,Yes,Rural,2
+7,Primary,Self-employed,148146,Yes,Rural,5
+3,Primary,Self-employed,299882,Yes,Rural,2
+6,No education,Wage employment,310526,Yes,Rural,3
+5,No education,Agriculture,234545,Yes,Urban,3
+5,No education,Unemployed,201655,No,Urban,3
+4,Secondary,Agriculture,252132,Yes,Rural,1
+7,Primary,Wage employment,375458,Yes,Rural,3
+7,Primary,Agriculture,222518,Yes,Rural,4
+9,Tertiary,Wage employment,711660,Yes,Rural,2
+5,Secondary,Wage employment,681022,No,Urban,1
+7,No education,Unemployed,50000,Yes,Rural,5
+3,No education,Self-employed,373359,Yes,Urban,1
+1,Secondary,Agriculture,458972,Yes,Urban,1
+3,Secondary,Wage employment,899434,Yes,Urban,1
+4,Primary,Agriculture,127930,Yes,Rural,3
+9,Secondary,Self-employed,405370,Yes,Rural,2
+8,Primary,Wage employment,372919,Yes,Rural,3
+5,Primary,Unemployed,313802,Yes,Urban,1
+1,Primary,Agriculture,277305,No,Urban,1
+5,Secondary,Agriculture,310960,Yes,Rural,1
+8,Primary,Self-employed,270127,Yes,Rural,4
+1,Secondary,Self-employed,454349,No,Urban,1
+7,Primary,Self-employed,225107,Yes,Rural,4
+10,Primary,Agriculture,258683,No,Rural,4
+2,No education,Wage employment,487374,No,Urban,1
+7,Tertiary,Self-employed,386680,Yes,Rural,2
+6,Tertiary,Agriculture,440406,Yes,Rural,1
+1,Secondary,Wage employment,506058,Yes,Urban,1
+10,Secondary,Agriculture,309272,Yes,Rural,2
+9,Tertiary,Unemployed,320991,No,Rural,2
+5,Primary,Wage employment,421561,Yes,Rural,2
+4,No education,Wage employment,289743,Yes,Rural,3
+3,Primary,Unemployed,83247,Yes,Rural,3
+8,Secondary,Self-employed,478360,Yes,Rural,2
+10,Secondary,Self-employed,361816,Yes,Rural,2
+1,Secondary,Self-employed,538338,No,Urban,1
+10,Primary,Self-employed,90007,Yes,Rural,5
+7,Tertiary,Self-employed,448591,No,Rural,2
+5,No education,Self-employed,305484,Yes,Urban,2
+6,Primary,Agriculture,205282,Yes,Rural,3
+4,Primary,Wage employment,406126,Yes,Rural,1
+7,Secondary,Self-employed,243637,Yes,Rural,3
+2,Tertiary,Unemployed,572735,No,Urban,1
+4,Primary,Self-employed,434132,No,Urban,1
+4,Primary,Self-employed,259548,No,Urban,1
+3,Primary,Agriculture,204903,Yes,Rural,2
+3,Secondary,Self-employed,417947,Yes,Urban,1
+1,Primary,Self-employed,519671,No,Urban,1
+5,Primary,Wage employment,510575,No,Urban,1
+2,Primary,Self-employed,413205,Yes,Urban,1
+4,Primary,Agriculture,487140,Yes,Urban,1
+1,Secondary,Agriculture,455203,No,Urban,1
+9,Secondary,Self-employed,305333,No,Rural,2
+6,Primary,Agriculture,53022,Yes,Rural,4
+7,Primary,Self-employed,318162,Yes,Rural,3
+6,Primary,Agriculture,196884,Yes,Rural,3
+1,Tertiary,Agriculture,715112,No,Urban,1
+5,Secondary,Unemployed,399897,Yes,Urban,1
+4,Secondary,Wage employment,626362,Yes,Rural,1
+3,Primary,Wage employment,422427,Yes,Rural,1
+4,Primary,Self-employed,175019,Yes,Rural,2
+4,Primary,Agriculture,50000,Yes,Rural,3
+9,No education,Self-employed,152240,No,Rural,5
+9,Primary,Wage employment,476205,Yes,Rural,3
+7,Primary,Self-employed,268111,No,Rural,4
+5,Secondary,Agriculture,186859,Yes,Rural,2
+5,Primary,Agriculture,151913,Yes,Rural,3
+9,No education,Self-employed,114158,Yes,Rural,5
+3,Tertiary,Unemployed,494324,Yes,Urban,1
+5,Primary,Agriculture,406376,Yes,Urban,1
+9,Secondary,Agriculture,187565,Yes,Rural,3
+7,Primary,Self-employed,237165,No,Rural,4
+10,Tertiary,Self-employed,669042,Yes,Rural,2
+9,Secondary,Unemployed,241823,Yes,Rural,3
+6,Tertiary,Agriculture,469094,Yes,Rural,1
+10,Primary,Self-employed,270915,Yes,Rural,4
+1,No education,Agriculture,314290,No,Urban,1
+3,Primary,Self-employed,467459,Yes,Urban,1
+5,No education,Wage employment,547480,No,Urban,2
+2,No education,Agriculture,201012,Yes,Urban,2
+6,No education,Self-employed,168526,Yes,Rural,4
+3,No education,Agriculture,76048,No,Rural,4
+5,Primary,Self-employed,243478,No,Rural,3
+8,Primary,Wage employment,437287,No,Rural,3
+5,Primary,Agriculture,289377,Yes,Urban,2
+7,Secondary,Unemployed,201976,Yes,Rural,3
+8,Secondary,Self-employed,389642,No,Rural,2
+5,Tertiary,Agriculture,431640,Yes,Rural,1
+8,Primary,Agriculture,88187,Yes,Rural,5
+6,Secondary,Wage employment,440117,Yes,Rural,1
+7,Primary,Wage employment,362323,Yes,Rural,3
+4,No education,Agriculture,207701,Yes,Rural,3
+8,Primary,Agriculture,166617,Yes,Rural,4
+5,No education,Self-employed,265800,Yes,Rural,4
+1,No education,Self-employed,383884,No,Urban,1
+1,Secondary,Unemployed,471674,Yes,Urban,1
+5,Primary,Self-employed,168738,Yes,Rural,3
+3,Primary,Wage employment,451709,Yes,Rural,1
+5,Primary,Self-employed,472957,No,Urban,1
+2,Tertiary,Wage employment,968277,Yes,Urban,1
+5,Primary,Unemployed,61436,Yes,Rural,4
+3,Primary,Agriculture,50000,Yes,Rural,3
+3,Secondary,Wage employment,324836,No,Rural,1
+3,Primary,Wage employment,487718,No,Urban,1
+5,Primary,Agriculture,61485,Yes,Rural,4
+10,Primary,Agriculture,262873,Yes,Rural,4
+5,No education,Agriculture,154109,Yes,Rural,4
+10,Secondary,Self-employed,276254,Yes,Rural,3
+5,No education,Wage employment,347810,Yes,Rural,3
+4,Primary,Agriculture,381322,No,Urban,1
+7,Primary,Self-employed,301577,Yes,Rural,3
+5,Tertiary,Agriculture,540200,Yes,Rural,1
+3,Tertiary,Self-employed,735773,No,Urban,1
+3,Tertiary,Agriculture,692122,No,Urban,1
+5,Primary,Agriculture,162123,Yes,Rural,3
+3,Primary,Agriculture,192635,No,Rural,2
+3,Secondary,Agriculture,386898,Yes,Urban,1
+3,Secondary,Self-employed,463019,Yes,Urban,1
+1,Primary,Self-employed,451706,Yes,Urban,1
+9,Tertiary,Agriculture,435968,Yes,Rural,2
+10,No education,Agriculture,52181,Yes,Rural,5
+5,Primary,Wage employment,469078,Yes,Rural,2
+2,Tertiary,Self-employed,519384,Yes,Urban,1
+7,Secondary,Self-employed,375125,Yes,Rural,2
+4,Secondary,Self-employed,412991,Yes,Rural,1
+1,No education,Wage employment,531238,No,Urban,1
+7,Secondary,Unemployed,314045,Yes,Rural,2
+9,Secondary,Agriculture,210182,Yes,Rural,3
+4,No education,Agriculture,143058,Yes,Rural,4
+8,Primary,Agriculture,250617,No,Rural,4
+5,Secondary,Unemployed,492041,Yes,Urban,1
+8,Primary,Self-employed,344816,Yes,Rural,3
+7,Secondary,Self-employed,378639,Yes,Rural,2
+5,Secondary,Agriculture,342583,Yes,Rural,1
+10,Primary,Agriculture,136644,No,Rural,5
+1,Tertiary,Self-employed,790990,Yes,Urban,1
+9,Secondary,Wage employment,443020,Yes,Rural,2
+1,Secondary,Unemployed,288170,Yes,Urban,1
+3,No education,Agriculture,322935,No,Urban,1
+2,Secondary,Agriculture,500180,Yes,Urban,1
+4,No education,Agriculture,178592,Yes,Rural,3
+7,Primary,Agriculture,113187,Yes,Rural,5
+9,Tertiary,Self-employed,636038,Yes,Rural,2
+5,Primary,Wage employment,419515,No,Rural,2
+4,Primary,Agriculture,324027,Yes,Urban,1
+4,Primary,Self-employed,206707,Yes,Rural,2
+7,Primary,Agriculture,185146,Yes,Rural,4
+4,Tertiary,Agriculture,661072,Yes,Urban,1
+1,No education,Agriculture,251995,Yes,Urban,2
+5,Tertiary,Agriculture,669475,No,Urban,1
+4,Tertiary,Agriculture,475044,No,Rural,1
+4,Tertiary,Wage employment,922611,No,Urban,1
+9,Primary,Self-employed,149626,No,Rural,5
+4,Primary,Self-employed,269758,Yes,Rural,2
+3,Primary,Agriculture,250634,No,Urban,1
+5,No education,Agriculture,134131,Yes,Rural,5
+5,Primary,Self-employed,385331,Yes,Rural,2
