@@ -14,56 +14,73 @@ st.set_page_config(
 model = joblib.load("model.pkl")
 mappings = joblib.load("mappings.pkl")
 
-# ================= HEADER ======================
+# ================= HERO IMAGE (ONLINE) =========
+st.image(
+    "https://upload.wikimedia.org/wikipedia/commons/3/38/Dodoma_city_Tanzania.jpg",
+    use_container_width=True
+)
+
 st.markdown("""
 <div style="text-align:center;">
     <h1>🇹🇿 Tanzania Poverty Risk Assessment System</h1>
     <p style="font-size:16px;color:gray;">
-        AI-based household poverty risk prediction dashboard
+        AI-powered dashboard for household poverty analysis
     </p>
 </div>
 """, unsafe_allow_html=True)
 
 st.markdown("---")
 
-# ================= INPUT FORM ==================
+# ================= INFO CARDS ===================
+c1, c2, c3 = st.columns(3)
+
+with c1:
+    st.image(
+        "https://cdn-icons-png.flaticon.com/512/4712/4712109.png",
+        width=80
+    )
+    st.markdown("### 🤖 AI Powered")
+    st.write("Machine Learning model trained on socio-economic indicators.")
+
+with c2:
+    st.image(
+        "https://upload.wikimedia.org/wikipedia/commons/6/6f/Tanzania_location_map.svg",
+        width=80
+    )
+    st.markdown("### 🌍 Tanzania Focused")
+    st.write("Designed specifically for Tanzanian household conditions.")
+
+with c3:
+    st.image(
+        "https://cdn-icons-png.flaticon.com/512/3208/3208707.png",
+        width=80
+    )
+    st.markdown("### 📊 Data Driven")
+    st.write("Predictions are based on measurable household data.")
+
+st.markdown("---")
+
+# ================= INPUT FORM ===================
 with st.form("prediction_form"):
     st.markdown("## 🧾 Household Information")
 
-    c1, c2, c3 = st.columns(3)
+    col1, col2, col3 = st.columns(3)
 
-    with c1:
+    with col1:
         hhsize = st.number_input("👨‍👩‍👧 Household Size", 1, 20, 5)
-        education = st.selectbox(
-            "🎓 Education Level (Household Head)",
-            list(mappings["education_head"].keys())
-        )
+        education = st.selectbox("🎓 Education Level", list(mappings["education_head"].keys()))
 
-    with c2:
-        income = st.number_input(
-            "💰 Monthly Income (TZS)",
-            value=250000,
-            step=50000,
-            format="%d"
-        )
-        employment = st.selectbox(
-            "💼 Employment Status",
-            list(mappings["employment_status"].keys())
-        )
+    with col2:
+        income = st.number_input("💰 Monthly Income (TZS)", value=250000, step=50000, format="%d")
+        employment = st.selectbox("💼 Employment Status", list(mappings["employment_status"].keys()))
 
-    with c3:
-        house = st.selectbox(
-            "🏠 House Ownership",
-            list(mappings["own_house"].keys())
-        )
-        location = st.selectbox(
-            "🌍 Area Type",
-            list(mappings["urban_rural"].keys())
-        )
+    with col3:
+        house = st.selectbox("🏠 Owns a House?", list(mappings["own_house"].keys()))
+        location = st.selectbox("🌍 Area Type", list(mappings["urban_rural"].keys()))
 
-    submit = st.form_submit_button("🔍 Run Poverty Risk Analysis")
+    submit = st.form_submit_button("🔍 Predict Poverty Risk")
 
-# ================= PREDICTION ==================
+# ================= RESULT =======================
 if submit:
     input_df = pd.DataFrame({
         "hhsize": [hhsize],
@@ -78,7 +95,6 @@ if submit:
     risk_level = int(np.round(raw_pred))
     risk_level = max(1, min(5, risk_level))
 
-    # ================= RISK CATEGORY =================
     if risk_level <= 2:
         label = "LOW RISK"
         color = "#2ECC71"
@@ -89,58 +105,29 @@ if submit:
         label = "HIGH RISK"
         color = "#E74C3C"
 
-    # ================= KPI METRICS =================
-    st.markdown("## 📊 Key Indicators")
+    st.markdown("## 📊 Results Overview")
     k1, k2, k3 = st.columns(3)
 
-    k1.metric("Poverty Risk Level", f"{risk_level} / 5")
+    k1.metric("Risk Level", f"{risk_level}/5")
     k2.metric("Risk Category", label)
     k3.metric("Model Output", f"{raw_pred:.2f}")
 
-    st.markdown("---")
+    st.progress(int((risk_level / 5) * 100))
 
-    # ================= RISK BAR ====================
-    st.markdown("## 🚦 Risk Level Indicator")
-
-    progress_value = int((risk_level / 5) * 100)
-    st.progress(progress_value)
-
-    # ================= RESULT CARD =================
     st.markdown(f"""
     <div style="
         padding:20px;
         border-radius:12px;
-        border-left:8px solid {color};
         background-color:{color}15;
+        border-left:8px solid {color};
         font-size:18px;
     ">
         <b>Final Assessment:</b><br>
-        The household is classified as <b>{label}</b>.
+        This household is classified as <b>{label}</b>.
     </div>
     """, unsafe_allow_html=True)
 
-    # ================= FACTOR CONTRIBUTION =================
-    st.markdown("## 📌 Contributing Factors Overview")
-
-    st.markdown("Household Size")
-    st.progress(min(hhsize * 10, 100))
-
-    st.markdown("Income Pressure")
-    st.progress(max(0, 100 - int(income / 10000)))
-
-    st.markdown("Education Level")
-    st.progress(mappings["education_head"][education] * 20)
-
-    st.markdown("Employment Status")
-    st.progress(mappings["employment_status"][employment] * 25)
-
-    st.markdown("Housing Security")
-    st.progress(mappings["own_house"][house] * 30)
-
-    st.markdown("Location Risk")
-    st.progress(mappings["urban_rural"][location] * 40)
-
-    # ================= DATA REVIEW =================
-    with st.expander("📂 View Submitted Data"):
+    with st.expander("📂 View Input Data"):
         st.dataframe(input_df)
+
 
