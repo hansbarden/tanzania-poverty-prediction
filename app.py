@@ -15,10 +15,11 @@ model = joblib.load("model.pkl")
 mappings = joblib.load("mappings.pkl")
 
 # ================= HERO IMAGE ==================
-#st.image(
-    #"https://unsplash.com/photos/green-leaf-tree-near-mountain-covered-by-snow-at-daytime-DWXR-nAbxCk"
-  #  use_container_width=True
-#)
+st.image(
+    "https://images.unsplash.com/photo-1509099836639-18ba1795216d?auto=format&fit=crop&w=1600&q=80",
+    use_container_width=True
+)
+
 
 st.markdown("""
 <div style="text-align:center;">
