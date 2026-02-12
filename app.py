@@ -53,7 +53,6 @@ st.markdown("---")
 
 # ================= INPUT FORM ===================
 with st.form("prediction_form"):
-    st.image("https://cdn-icons-png.flaticon.com/128/7439/7439745.png", width=80)
     st.markdown("## 🧾 Household Information")
 
     col1, col2, col3 = st.columns(3)
