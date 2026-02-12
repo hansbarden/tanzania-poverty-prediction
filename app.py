@@ -16,7 +16,7 @@ mappings = joblib.load("mappings.pkl")
 
 # ================= HERO IMAGE ==================
 st.image(
-    "https://images.unsplash.com/photo-1604088430380-5b5a5c4b1b2a",
+    "https://unsplash.com/photos/green-leaf-tree-near-mountain-covered-by-snow-at-daytime-DWXR-nAbxCk"
     use_container_width=True
 )
 
