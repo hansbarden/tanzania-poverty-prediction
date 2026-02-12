@@ -14,23 +14,59 @@ st.set_page_config(
 model = joblib.load("model.pkl")
 mappings = joblib.load("mappings.pkl")
 
-# ================= HERO IMAGE ==================
-st.image(
-    "https://images.unsplash.com/photo-1509099836639-18ba1795216d?auto=format&fit=crop&w=1600&q=80",
-    use_container_width=True
+# ================= HERO SECTION ==================
+st.markdown(
+    """
+    <style>
+    .hero-box {
+        position: relative;
+        width: 100%;
+        height: 320px;
+        border-radius: 16px;
+        overflow: hidden;
+        margin-bottom: 30px;
+    }
+
+    .hero-box img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        filter: brightness(0.55);
+    }
+
+    .hero-content {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        color: white;
+        font-family: Arial, sans-serif;
+        padding: 20px;
+    }
+
+    .hero-content h1 {
+        font-size: 42px;
+        font-weight: 700;
+        margin-bottom: 10px;
+    }
+
+    .hero-content p {
+        font-size: 18px;
+        opacity: 0.95;
+    }
+    </style>
+
+    <div class="hero-box">
+        <img src="https://images.unsplash.com/photo-1509099836639-18ba1795216d?auto=format&fit=crop&w=1600&q=80">
+        <div class="hero-content">
+            <h1>🇹🇿 Tanzania Poverty Risk Assessment System</h1>
+            <p>AI-powered household poverty analysis dashboard</p>
+        </div>
+    </div>
+    """,
+    unsafe_allow_html=True
 )
-
-
-st.markdown("""
-<div style="text-align:center;">
-    <h1>🇹🇿 Tanzania Poverty Risk Assessment System</h1>
-    <p style="font-size:16px;color:gray;">
-        AI-powered household poverty analysis dashboard
-    </p>
-</div>
-""", unsafe_allow_html=True)
-
-st.markdown("---")
 
 # ================= INFO CARDS ===================
 c1, c2, c3 = st.columns(3)
