@@ -35,7 +35,7 @@ st.markdown("---")
 c1, c2, c3 = st.columns(3)
 
 with c1:
-    st.image("https://cdn-icons-png.flaticon.com/512/4712/4712109.png", width=80)
+    st.image("https://cdn-icons-png.flaticon.com/128/16983/16983076.png", width=80)
     st.markdown("### 🤖 AI Powered")
     st.write("Machine Learning model trained on socio-economic indicators.")
 
