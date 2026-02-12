@@ -40,7 +40,7 @@ with c1:
     st.write("Machine Learning model trained on socio-economic indicators.")
 
 with c2:
-    st.image("https://cdn-icons-png.flaticon.com/512/854/854878.png", width=80)
+    st.image("https://cdn-icons-png.flaticon.com/128/12357/12357128.png", width=80)
     st.markdown("### 🌍 Tanzania Focused")
     st.write("Designed specifically for Tanzanian household conditions.")
 
