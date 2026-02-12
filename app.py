@@ -45,7 +45,7 @@ with c2:
     st.write("Designed specifically for Tanzanian household conditions.")
 
 with c3:
-    st.image("https://cdn-icons-png.flaticon.com/512/3208/3208707.png", width=80)
+    st.image("https://cdn-icons-png.flaticon.com/128/3270/3270865.png", width=80)
     st.markdown("### 📊 Data Driven")
     st.write("Predictions are based on measurable household data.")
 
