@@ -60,7 +60,7 @@ st.markdown(
     <div class="hero-box">
         <img src="https://images.unsplash.com/photo-1509099836639-18ba1795216d?auto=format&fit=crop&w=1600&q=80">
         <div class="hero-content">
-            <h1>🇹🇿 Tanzania Poverty Risk Assessment System</h1>
+            <h1>Tanzania Poverty Risk Assessment System</h1>
             <p>AI-powered household poverty analysis dashboard</p>
         </div>
     </div>
