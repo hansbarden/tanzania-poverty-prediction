@@ -18,7 +18,7 @@ mappings = joblib.load("mappings.pkl")
 #st.image(
     #"https://unsplash.com/photos/green-leaf-tree-near-mountain-covered-by-snow-at-daytime-DWXR-nAbxCk"
   #  use_container_width=True
-)
+#)
 
 st.markdown("""
 <div style="text-align:center;">
