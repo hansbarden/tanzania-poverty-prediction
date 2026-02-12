@@ -6,7 +6,7 @@ import numpy as np
 # ================= PAGE CONFIG =================
 st.set_page_config(
     page_title="Tanzania Poverty Risk Predictor",
-    page_icon="🇹🇿",
+    page_icon="https://cdn-icons-png.flaticon.com/128/16067/16067281.png",
     layout="wide"
 )
 
