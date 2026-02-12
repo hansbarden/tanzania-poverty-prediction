@@ -157,6 +157,38 @@ if submit:
 
     with st.expander("📂 View Input Data"):
         st.dataframe(input_df)
+        
+# ================= FOOTER ==================
+st.markdown("---")
+
+st.markdown(
+    """
+    <style>
+    .footer {
+        text-align: center;
+        padding: 20px 10px;
+        color: #6c757d;
+        font-size: 14px;
+    }
+
+    .footer strong {
+        color: #343a40;
+    }
+    </style>
+
+    <div class="footer">
+        <p>
+            Developed by <strong>EASTC students</strong> |
+            Machine Learning Project |
+            <strong>2026</strong>
+        </p>
+        <p>
+            Tanzania Poverty Risk Assessment System
+        </p>
+    </div>
+    """,
+    unsafe_allow_html=True
+)
 
 
 
