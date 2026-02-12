@@ -14,57 +14,68 @@ st.set_page_config(
 model = joblib.load("model.pkl")
 mappings = joblib.load("mappings.pkl")
 
+
+
 # ================= HERO SECTION ==================
 st.markdown(
     """
-  <style>
-.hero-box {
-    position: relative;
-    width: 100%;
-    height: 320px;
-    border-radius: 16px;
-    overflow: hidden;
-    margin-bottom: 30px;
-}
+    <style>
+    .hero-box {
+        position: relative;
+        width: 100%;
+        height: 320px;
+        border-radius: 16px;
+        overflow: hidden;
+        margin-bottom: 30px;
+    }
 
-.hero-box img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    filter: brightness(0.55);
-}
+    .hero-box img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        filter: brightness(0.55);
+        display: block;
+    }
 
-.hero-content {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-    color: white;
-    padding: 20px;
-    max-width: 90%;
-}
+    .hero-content {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        color: white;
+        padding: 20px;
+        max-width: 90%;
+    }
 
-/* ✅ RESPONSIVE TITLE */
-.hero-content h1 {
-    font-size: clamp(26px, 4vw, 42px);
-    font-weight: 700;
-    line-height: 1.2;
-    margin-bottom: 12px;
-    word-break: normal;
-    white-space: normal;
-}
+    .hero-content h1 {
+        font-size: clamp(26px, 4vw, 42px);
+        font-weight: 700;
+        line-height: 1.2;
+        margin-bottom: 12px;
+        word-break: break-word;
+        white-space: normal;
+    }
 
-/* ✅ RESPONSIVE SUBTITLE */
-.hero-content p {
-    font-size: clamp(14px, 2.5vw, 18px);
-    opacity: 0.95;
-}
-</style>
+    .hero-content p {
+        font-size: clamp(14px, 2.5vw, 18px);
+        opacity: 0.95;
+        margin: 0;
+    }
 
+    /* Optional: add smooth fade-in */
+    .hero-content {
+        animation: fadeIn 1.2s ease-in-out;
+    }
+
+    @keyframes fadeIn {
+        from {opacity: 0; transform: translate(-50%, -60%);}
+        to {opacity: 1; transform: translate(-50%, -50%);}
+    }
+    </style>
 
     <div class="hero-box">
-        <img src="https://images.unsplash.com/photo-1509099836639-18ba1795216d?auto=format&fit=crop&w=1600&q=80">
+        <img src="https://images.unsplash.com/photo-1509099836639-18ba1795216d?auto=format&fit=crop&w=1600&q=80" alt="Hero Image">
         <div class="hero-content">
             <h1>Tanzania Poverty Risk Assessment System</h1>
             <p>AI-powered household poverty analysis dashboard</p>
