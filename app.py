@@ -21,7 +21,7 @@ st.markdown(
     .hero-box {
         position: relative;
         width: 100%;
-        height: 320px;
+        height: 280px;
         border-radius: 16px;
         overflow: hidden;
         margin-bottom: 30px;
